@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: #16302B;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+header {
+    background: #fff;
+
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    width: 100%;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #000;
+}
+
+header nav ul li a:hover {
+    color: #fff;
+    background: #000;
+}
+
+.main {
+    width: 70%;
+    background: #f2f2f2;
+    float: left;
+}
+
+.main .img {
+    width: 100%;
+}
+
+.main img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.posts {
+    padding: 40px;
+}
+
+.main .posts article h2 {
+    color: #424242;
+    margin-bottom: 20px;
+}
+
+.main .posts article p {
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+
+aside {
+    padding: 20px;
+    color: #fff;
+    width: 30%;
+    background: #161f26;
+    float:left;
+}
+
+aside div {
+    margin-bottom: 20px;
+}
+
+aside div .titulo {
+    color: #ff8000;
+    border-bottom: 1px solid #ff8000;
+    margin-bottom:10px;
+}
+
+aside div ul {
+    list-style: none;
+}
+
+aside div ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0;
+}
+
+aside div ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+aside div ul li a:hover {
+    color: #8f8f8f;
+}
+
+aside div p {
+    line-height: 27px;
+}
+
+footer {
+    width: 70%;
+    padding: 15px 0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    clear: both;
+}
+
+@media screen and (max-width:800px) {
+    .main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+    
+}
